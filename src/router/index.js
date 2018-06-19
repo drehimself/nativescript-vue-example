@@ -9,6 +9,7 @@ import Counter from '../components/Counter';
 import Reddit from '../components/Reddit';
 import Plugins from '../components/Plugins';
 import Refresh from '../components/Refresh';
+import Login from '../components/Login';
 
 const router = new VueRouter({
   pageRouting: true,
@@ -53,6 +54,13 @@ const router = new VueRouter({
       component: Refresh,
       meta: {
         title: 'Refresh',
+      },
+    },
+    {
+      path: '/login',
+      component: Login,
+      meta: {
+        title: 'Login',
       },
     },
     {path: '*', redirect: '/home'},

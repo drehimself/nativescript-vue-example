@@ -21,6 +21,7 @@
     "nativescript-cardview": "^3.1.0",
     "nativescript-fancyalert": "^1.2.0",
     "nativescript-feedback": "^1.2.0",
+    "nativescript-gradient": "^2.0.1",
     "nativescript-pulltorefresh": "^2.1.1",
     "nativescript-theme-core": "^1.0.4",
     "nativescript-toast": "^1.4.6",

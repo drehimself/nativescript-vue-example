@@ -14,7 +14,8 @@
     "nativescript-fancyalert": "^1.2.0",
     "nativescript-feedback": "^1.2.0",
     "nativescript-pulltorefresh": "^2.1.1",
-    "nativescript-toast": "^1.4.6"
+    "nativescript-toast": "^1.4.6",
+    "nativescript-gradient": "^2.0.1"
   },
   "devDependencies": {
     "babel-traverse": "6.26.0",

@@ -8,6 +8,7 @@
       <Button class="btn btn-primary" @tap="$router.push('/reddit')">Reddit</Button>
       <Button class="btn btn-primary" @tap="$router.push('/plugins')">Plugins</Button>
       <Button class="btn btn-primary" @tap="$router.push('/refresh')">Pull to Refresh</Button>
+      <Button class="btn btn-primary" @tap="$router.push('/login')">Login Screen</Button>
     </StackLayout>
 
   </Page>
