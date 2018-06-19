@@ -7,6 +7,8 @@ import Home from '../components/Home';
 import HelloWorld from '../components/HelloWorld';
 import Counter from '../components/Counter';
 import Reddit from '../components/Reddit';
+import Plugins from '../components/Plugins';
+import Refresh from '../components/Refresh';
 
 const router = new VueRouter({
   pageRouting: true,
@@ -37,6 +39,20 @@ const router = new VueRouter({
       component: Reddit,
       meta: {
         title: 'Reddit',
+      },
+    },
+    {
+      path: '/plugins',
+      component: Plugins,
+      meta: {
+        title: 'Plugins',
+      },
+    },
+    {
+      path: '/refresh',
+      component: Refresh,
+      meta: {
+        title: 'Refresh',
       },
     },
     {path: '*', redirect: '/home'},
